@@ -5,9 +5,9 @@
    	@IsTest(SeeAllData=true) public static void testChangePasswordController() {
         // Instantiate a new controller with all parameters in the page
         ChangePasswordController controller = new ChangePasswordController();
-        controller.oldPassword = '1223456';
-        controller.newPassword = 'qwerty1'; 
-        controller.verifyNewPassword = 'qwerty1';                
+        controller.oldPassword = '143246';
+        controller.newPassword = 'qweerty1'; 
+        controller.verifyNewPassword = 'qweerty1';                
         
         System.assertEquals(controller.changePassword(),null);                           
     }    
