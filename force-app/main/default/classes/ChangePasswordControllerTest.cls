@@ -7,7 +7,7 @@
         ChangePasswordController controller = new ChangePasswordController();
         controller.oldPassword = '1223456';
         controller.newPassword = 'qwerty1'; 
-        controller.verifyNewPassword = 'qwerty1';                
+        controller.verifyNewPassword = 'qwerty1';                //comments
         
         System.assertEquals(controller.changePassword(),null);                           
     }    
